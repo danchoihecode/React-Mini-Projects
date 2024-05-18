@@ -1,0 +1,45 @@
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 15px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart {
+  margin-left: 30px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.data-table {
+  width:30%;
+}
+
+table {
+  width: 50%;
+  margin: auto;
+  table-layout: fixed; 
+}
+
+th, td {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+table, td, th {
+  border: 1.4px solid black;
+  border-collapse: collapse;
+}
+
+input {
+  width: 100%; 
+  border: none;
+  padding: 0px;
+  text-align: center;
+}
