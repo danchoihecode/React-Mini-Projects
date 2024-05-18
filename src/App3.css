@@ -1,0 +1,68 @@
+.game {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  width: 343px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border: 1px solid black;
+}
+
+.grid-item {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+img {
+  width: 45px;
+  height: 45px;
+}
+
+.wall {
+  background-color: #4169E1;
+  width: 57px;
+  height: 57px;
+}
+
+.path {
+  width: 57px;
+  height: 57px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  border: 1.5px solid black;
+  padding: 5px;
+  width: 35%;
+  height: 457px;
+  margin-left: 5px;
+  position: relative;
+}
+
+.button {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: left;
+}
+.button:hover {
+  background-color:  rgb(33, 143, 33);
+  color:white;
+}
+
+.run-button {
+  width: 60%;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
